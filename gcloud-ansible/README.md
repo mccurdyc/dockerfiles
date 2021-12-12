@@ -23,3 +23,8 @@ function gcloud-ansible() {
     mccurdyc/ansible:latest "$@"
 }
 ```
+
+## TODOs
+
+- [ ] pin all Ansible dependencies via pip and a virtualenv.
+- [ ] use [wagoodman/dive](https://github.com/wagoodman/dive) to see how the Dockerfile layer caching could be improved.
